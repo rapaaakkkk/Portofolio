@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raffa's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Raffa</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#bio">Biodata</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="content">
+            <h1>Hello, I'm <span class="highlight">Raffa</span></h1>
+            <p>Front-End Developer • UI/UX Enthusiast • Creative Designer</p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+            <img src="main.jpg" alt="Profile Image" class="profile-img">
+
+            <p class="section-desc">
+                My name is M Raffa Alfarizzie, a 13-year-old student currently in the 9th grade of junior high school. I am a motivated learner who enjoys taking on new experiences and exploring different fields of knowledge. From academics to personal projects, I always try to approach every challenge with curiosity and determination. Learning new things is not just a requirement for me—it is something I genuinely enjoy and seek out in my everyday life.<br><br>I live in Bangka Belitung, a region known for its beautiful landscapes and rich cultural background. Growing up in such an inspiring environment has helped shape my creativity and broaden my perspective. The community around me has taught me the importance of staying grounded while still being open to opportunities beyond my surroundings. This balance between local values and global curiosity is something I hope to carry with me as I continue to grow.<br><br>As a student, I am particularly drawn to new ideas, technologies, and activities that challenge my thinking. I enjoy discovering how things work and finding better ways to solve problems. Whether it’s learning a new skill, trying a different hobby, or exploring a topic I’ve never encountered before, I am always excited to dive in and see what I can learn. This mindset helps me stay adaptable, creative, and willing to improve myself step by step.<br><br>Beyond the classroom, I am interested in expanding my abilities and building experiences that can support my future ambitions. I believe that every small achievement—no matter how simple—contributes to something greater. Through this portfolio, I aim to showcase the projects, accomplishments, and milestones that reflect who I am and what I am capable of. It is also a place where I hope others can see my potential and the effort I put into my growth.<br><br>Looking ahead, I am eager to continue exploring, experimenting, and challenging myself. My journey is just beginning, and I am excited about the possibilities that lie ahead. With curiosity as my guide and determination as my strength, I hope to keep growing into someone who can create meaningful contributions in whatever field I choose in the future<br>
+
+
+            </p>
+        </div>
+    </section>
+
+    <!-- Biodata Section -->
+    <section id="bio" class="section">
+        <h2 class="section-title">My Biodata</h2>
+
+        <div class="bio-container">
+            <div class="bio-item">
+                <label>Full Name</label>
+                <p>Raffa</p>
+            </div>
+
+            <div class="bio-item">
+                <label>Age</label>
+                <p>13 year old</p>
+            </div>
+
+            <div class="bio-item">
+                <label>Location</label>
+                <p>Bangka belitung island</p>
+            </div>
+
+            <div class="bio-item">
+                <label>Interests</label>
+                <p>i like learning new things</p>
+            </div>
+
+            <div class="bio-item">
+                <label>Skills</label>
+                <p>Scripting, Editing, and Graphic designer</p>
+            </div>
+
+            <div class="bio-item">
+                <label>Short Personal Paragraph</label>
+                <p class="bio-paragraph">
+                    I love exploring new ideas, learning new tech, and turning concepts
+                    into real digital experiences. I enjoy futuristic designs and
+                    smooth animation-focused web layouts.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A modern landing page built using HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>A responsive portfolio website with smooth animations.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>A lightweight web app with a clean UI and dark theme.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <p id="formResponse" class="response"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
